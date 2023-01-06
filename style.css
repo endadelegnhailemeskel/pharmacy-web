@@ -1,0 +1,218 @@
+body {
+    width:100%;
+}
+h3   {color: rgb(8, 8, 44);}
+#header{  
+    display:flex; /*by defoult row*/
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+   background-color: aliceblue;
+   box-shadow: 0 15px 205px rgb(84, 84, 178);
+   z-index:999 ;
+   position: sticky;
+   top: o;
+   left: 0;
+
+   
+}
+#navbar{/*navgation bar*/
+    display: flexbox;
+    align-items: center;
+    justify-content: center ;
+}
+/*
+#navbar li{
+    list-style:none;
+    padding: 0 20px;
+ }
+   #navbar  li a{
+     text-decoration: none;
+     font-size: 15px;
+     font-weight: 600;
+     color: rgb(31, 41, 41);
+ }
+  /*selector*/
+  #navbar.active{
+ color: rgb(53, 51, 48);
+  }
+  
+  #important{
+    background-image:url("images/important.jpg") ;
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 10%  right 2%;
+  }
+
+#feature .box{
+box-sizing: border-box;
+width: 190px;
+text-align: center;
+padding :10px 15px;
+box-shadow: 20px 20px 40px rgb(12, 12, 25);
+border: 2px rgb(69, 69, 139);
+border-radius: 5px;
+margin: 15px 0;
+}
+#feature .box{
+    box-shadow: 20px 20px 40px rgb(12, 12, 25); 
+}
+
+
+#feature .box h3{
+    display:inline-block;  /*text color mekebat*/
+    line-height: 3;
+    border-radius: 3px;
+    color: rgb(22, 19, 26);
+    background-color: rgb(169, 210, 210);
+    
+}
+#feature .box:nth-child(2) h3{
+background-color: aqua;
+}
+#feature .box:nth-child(3) h3{
+    background-color: rgb(107, 119, 119);
+    }
+    #feature .box:nth-child(4) h3{
+        background-color: rgb(125, 137, 137);
+        }
+        #feature .box:nth-child(5) h3{
+            background-color: rgb(34, 151, 151);
+            }
+            #feature {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+  #product{
+text-align: center ;
+}
+#product h1{
+color: rgb(78, 198, 54);
+font-size:50px;
+
+
+         }
+#product .pro{
+  width: 24%;
+  max-width: 250;
+  padding: 10px 12px;
+  border: 1px;color: rgb(34, 26, 14);
+  border-radius:20px;
+  cursor:pointer;
+  box-shadow: 20px 20px 30px rgb(0, 0,0, 0.2);
+  margin:15px o;
+transition:0.2s ease;
+position: relative;
+}
+#product .pro:hover{
+    box-shadow: 20px 20px 30px rgb(0, 0,0, 0.2);
+}
+#product .pro images{
+    width: 100%
+    /*border: radius 20%;*/
+}
+#product .pro .des{
+text-align: star;
+padding: 10px 0;
+}
+#product .pro .des .span{
+color:aqua;
+font-size: 15px;
+}
+#product .pro .des h3{
+    padding-top: 8px;
+    color:darkblue;
+    font-size: 15px;
+}
+#product .pro .des i{
+    font-size: 13px;
+    color:rgb(243, 181, 25);
+}
+#product .pro .des h4{
+    padding-top: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color:rgb(6, 22, 22);
+}
+#product .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+    font-weight: 500 init;
+    color:rgb(52, 109, 109);
+    border: 1px cornflowerblue;
+    position: absolute;
+    border-bottom: 20px;
+    right: 10px;
+}
+#product .pro-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+   
+} 
+
+
+#banner{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("images/banner.PNG");
+    width: 100%;
+    height: 40vh;
+}
+#banner h3 {
+color: #fff;
+font-size:28px;
+}
+
+#banner h1{
+padding: 10px 0;
+color: rgb(11, 9, 9);
+font-size:28px;
+}
+#banner span{
+   
+    color: rgb(243, 12, 12);
+   
+    }
+   button.normal {
+font-size: 20px;
+font-weight: 600;
+padding: 15px 30px;
+background-color:rgb(227, 207, 207);
+color: #000;
+border-radius: 5px;
+cursor: pointer;
+border: none;
+outline: none;
+transition:0.2s;
+
+    }
+    #banner button:hover{
+        background-color: rgb(250, 255, 253);
+        color: aqua;
+    }
+    #newproduct{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        flex-wrap: wrap;
+       
+    }
+    #newproduct h1{
+        padding: 10px 0;
+        color: rgb(11, 9, 9);
+        font-size:28px;
+        text-align: center;
+        }
